@@ -1,0 +1,36 @@
+body{
+    background:linear-gradient(to right, #FDB927, #552583); 
+}
+h3{
+    font-family: fantasy;
+    text-align: center;
+    color: #000000;
+}
+.main-content{
+    display: flex;
+}
+.list{
+    flex: 2;
+    /* background:linear-gradient(to right, #FDB927, #552583);  */
+    
+}
+.form{
+    flex: 1;
+    
+}
+#iImportant{
+    font-size: 32px;
+    /* color: gold; */
+    cursor: pointer;
+}
+#iImportant.fas{
+    color:gold;
+}
+
+#btnShowHide{
+    
+    cursor: pointer;
+    background-color: #552583;
+    color: #FDB927;
+    
+}
