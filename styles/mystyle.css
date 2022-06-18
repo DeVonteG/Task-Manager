@@ -1,36 +1,72 @@
-body{
-    background:linear-gradient(to right, #FDB927, #552583); 
+body {
+  background: linear-gradient(to right, #fdb927, #552583);
 }
-h3{
-    font-family: fantasy;
-    text-align: center;
-    color: #000000;
+h2 {
+  font-family: fantasy;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 3rem;
 }
-.main-content{
-    display: flex;
+.main-content {
+  display: flex;
 }
-.list{
-    flex: 2;
-    /* background:linear-gradient(to right, #FDB927, #552583);  */
-    
+.list {
+  flex: 2;
+  /* margin-right: 2rem; */
+  /* background: linear-gradient(to right, #fdb927, #552583); */
 }
-.form{
-    flex: 1;
-    
+.form {
+  flex: 1;
+  margin-left: 2rem;
 }
-#iImportant{
-    font-size: 32px;
-    /* color: gold; */
-    cursor: pointer;
+#iImportant {
+  font-size: 32px;
+  /* color: gold; */
+  cursor: pointer;
 }
-#iImportant.fas{
-    color:gold;
+#iImportant.fas {
+  color: gold;
 }
 
-#btnShowHide{
-    
-    cursor: pointer;
-    background-color: #552583;
-    color: #FDB927;
-    
+#btnShowHide {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color: #552583;
+  color: #fdb927;
+}
+.tasks {
+  /* border: 2px solid red; */
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+.title {
+  /* margin-left: 1rem; */
+  margin-left: auto;
+  padding-left: 10px;
+  padding-top: 12px;
+}
+.locale {
+  margin-left: auto;
+  padding: 5px;
+}
+.dates {
+  margin-left: auto;
+  /* border: 2px solid green; */
+  display: flexbox;
+  position: inherit;
+  font-style: normal;
+  justify-content: right;
+  padding: 5px;
+}
+#btnSaveTask {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-weight: 500;
+  background-color: #fdb927;
+  color: #552583;
+  cursor: pointer;
 }
