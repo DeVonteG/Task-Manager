@@ -41,11 +41,12 @@ h2 {
   display: flex;
   background-color: white;
   border-radius: 10px;
+  margin-top: 1rem;
 }
 .title {
-  /* margin-left: 1rem; */
-  margin-left: auto;
-  padding-left: 10px;
+  margin-left: 1rem;
+  /* margin-left: auto; */
+  /* padding-left: 10px; */
   padding-top: 12px;
 }
 .locale {
