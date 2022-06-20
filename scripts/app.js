@@ -71,15 +71,15 @@ function saveTask() {
 }
 function getStatusText(status) {
   switch (status) {
-    case 0:
+    case "0":
       return "New";
-    case 1:
+    case "1":
       return "In Progress";
-    case 3:
+    case "3":
       return "Blocked";
-    case 6:
+    case "6":
       return "Completed";
-    case 9:
+    case "9":
       return "Removed";
     default:
       return "missing";
@@ -98,7 +98,7 @@ function displayTask(task) {
       <label><b>Location:</b> ${task.location}</label>
     </div>
     <div class="status">
-      <label><b>Status:</b>  ${task.status}</label>
+      <label><b>Status:</b> ${statusText}</label>
     </div>
     <div class="dates">
       <label><b>Task Duration:</b> ${task.duration} Days</label>
@@ -163,11 +163,9 @@ function deleteAll() {
 }
 function init() {
   // runTests();
-
   // console.log("task manager");
   // load data
   fetchTask();
-
   // hook events
   $("#iImportant").click(toggleImportant);
   $("#btnShowHide").click(togglePanel);

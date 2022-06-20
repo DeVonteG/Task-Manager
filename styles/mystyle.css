@@ -36,6 +36,12 @@ h2 {
   background-color: #552583;
   color: #fdb927;
 }
+#btnDel {
+  margin-top: 2rem;
+  cursor: pointer;
+  background-color: #552583;
+  color: #fdb927;
+}
 .tasks {
   /* border: 2px solid red; */
   display: flex;
@@ -48,19 +54,25 @@ h2 {
   /* margin-left: auto; */
   /* padding-left: 10px; */
   padding-top: 12px;
+  flex: 1;
 }
 .locale {
   margin-left: auto;
+  padding: 5px;
+  flex: 1;
+}
+.status {
+  flex: 1;
   padding: 5px;
 }
 .dates {
   margin-left: auto;
   /* border: 2px solid green; */
-  display: flexbox;
-  position: inherit;
+
   font-style: normal;
   justify-content: right;
   padding: 5px;
+  flex: 1;
 }
 #btnSaveTask {
   display: flex;
